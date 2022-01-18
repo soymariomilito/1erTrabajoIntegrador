@@ -1,0 +1,29 @@
+@font-face {
+    font-family: dancing;
+    src: url(./fuente/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+#blog h3 {
+    font-family: dancing;
+    font-size: 28px;
+}
+
+#blog h3, h4 {
+    text-align: center;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 280px;
+    max-width: 280px;
+    height: 180px;
+}
